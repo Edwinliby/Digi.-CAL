@@ -1,42 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-body{
+body {
     background-color: gray;
     font-family: 'Share Tech Mono', monospace;
 }
 
 
-i{
-    font-size: 2em;    
+i {
+    font-size: 2em;
     color: black;
     margin: .5em;
 }
 
-i:hover{
-    color:white;
+i:hover {
+    color: white;
 }
 
-.calculator{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin-top: 2.5em;
+.calculator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5em;
 }
 
-.keys{
-    width:21.5em;
-    height:31em;
+.keys {
+    width: 21.5em;
+    height: 31em;
     border-radius: 2.5em;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-#screen{
-    width:15.35em;
+#screen {
+    width: 15.35em;
     height: 3.5em;
     border-top-left-radius: 1.9em;
     border-top-right-radius: 1.9em;
     font-weight: 500;
-	font-size: 1.4em;
+    font-size: 1.4em;
     border-width: 0;
     background-color: white;
     text-align: right;
@@ -44,49 +44,50 @@ i:hover{
     pointer-events: none;
 }
 
-.btn{ 
+.btn {
     width: 2.5em;
-	height: 2.5em;
-	margin: 0.5em;
-	float: inline-start;
-	border-width: 0;
-	font-weight: 500;
-	font-size: 1.4em;
+    height: 2.5em;
+    margin: 0.5em;
+    float: inline-start;
+    border-width: 0;
+    font-weight: 500;
+    font-size: 1.4em;
     background-color: #b9b9b9;
     border-radius: 2.5em;
 }
 
-.op{ 
+.op {
     width: 2.5em;
-	height: 2.5em;
-	margin: 0.5em;
-	float: inline-start;
-	border-width: 0;
-	font-weight: 500;
-	font-size: 1.4em;
+    height: 2.5em;
+    margin: 0.5em;
+    float: inline-start;
+    border-width: 0;
+    font-weight: 500;
+    font-size: 1.4em;
     background-color: #ff9d00;
     border-radius: 2.5em;
 }
 
-.equal{ 
+.equal {
     width: 6em;
-	height: 2.5em;
-	margin-left: .5em;
-	float: inline-start;
-	border-width: 0;
-	font-weight: 500;
-	font-size: 1.4em;
+    height: 2.5em;
+    margin-left: .5em;
+    float: inline-start;
+    border-width: 0;
+    font-weight: 500;
+    font-size: 1.4em;
     background-color: #ff9d00;
     border-radius: 2.5em;
 }
 
-.btn:hover{
-    background-color:#ffffff;
+.btn:hover {
+    background-color: #ffffff;
 }
 
-.equal:hover, .op:hover{
+.equal:hover,
+.op:hover {
     background-color: #ffc76d;
-    color:white;
+    color: white;
 }
 
 .footer {
@@ -95,4 +96,3 @@ i:hover{
     color: rgb(239, 239, 239);
     font-size: .9em;
 }
-
